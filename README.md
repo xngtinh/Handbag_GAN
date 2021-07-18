@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 When you done, run bellow and have fun.
 ```
-python manage.py migrage
+python manage.py migrate
 python manage.py runserver
 ```
 
