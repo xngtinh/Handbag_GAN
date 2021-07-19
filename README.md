@@ -18,6 +18,6 @@ python manage.py runserver
 
 ## Team
 
-* **[Tran Thanh Nha]()**: Instructor
+* **[Tran Thanh Nha]()**: Instructor.
 * **[Lam Phat Tai](https://github.com/lamphattai2105)**
 * **[Nguyen Xuan Tinh](https://github.com/xngtinh)**
