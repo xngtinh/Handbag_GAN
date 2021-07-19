@@ -2,11 +2,17 @@
 
 ## How to use
 
-Run this comandline to install necessary library.
+* Setup Environment (Using conda)
+Download and Install at **[here](https://docs.conda.io/en/latest/miniconda.html)**. Then, run the commands:
+```
+conda create -n myenv python=3.6
+conda activate myenv
+```
+* Run this comandline to install necessary library.
 ```
 pip install -r requirements.txt
 ```
-When you done, run bellow to start app.
+* When you done, run bellow to start app.
 ```
 python manage.py migrate
 python manage.py runserver
