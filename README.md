@@ -25,6 +25,7 @@ python manage.py runserver
 </p>
 
 <img align="center" src="https://github.com/xngtinh/Handbag_GAN/blob/main/generator/static/generator/origin/demo.png">
+<p align="center">Demo screen</p>
 
 ## Team
 
