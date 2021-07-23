@@ -102,8 +102,8 @@ fixed_noise = torch.randn(25, nz, 1, 1, device=device)
 
 
 try:
-    netG.load_state_dict(torch.load('./generator/Weights/generator_satchel_11_4.h5'))
-    netD.load_state_dict(torch.load('./generator/Weights/discriminator_satchel_11_4.h5'))
+    netG.load_state_dict(torch.load('./generator/Weights/generator_satchel_11_4.h5', map_location=torch.device('cpu')))
+    netD.load_state_dict(torch.load('./generator/Weights/discriminator_satchel_11_4.h5', map_location=torch.device('cpu')))
 except RuntimeError as e:
     print('Ignoring "' + str(e) + '"')
 

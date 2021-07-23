@@ -27,7 +27,7 @@ nz = 128
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # device = torch.device("cpu")
-# device = torch.load(('./generator/Weights/discriminator_27_3.h5'),map_location=torch.device('cpu'))
+# device = torch.load(('./generator/Weights/generator_balo_11_4.h5'),map_location=torch.device('cpu'))
 
 
 class Generator(nn.Module):
@@ -102,8 +102,8 @@ fixed_noise = torch.randn(25, nz, 1, 1, device=device)
 
 
 try:
-    netG.load_state_dict(torch.load('./generator/Weights/generator_balo_11_4.h5'))
-    netD.load_state_dict(torch.load('./generator/Weights/discriminator_balo_11_4.h5'))
+    netG.load_state_dict(torch.load('./generator/Weights/generator_balo_11_4.h5', map_location=torch.device('cpu')))
+    netD.load_state_dict(torch.load('./generator/Weights/discriminator_balo_11_4.h5', map_location=torch.device('cpu')))
 except RuntimeError as e:
     print('Ignoring "' + str(e) + '"')
 

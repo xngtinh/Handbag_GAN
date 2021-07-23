@@ -102,14 +102,14 @@ fixed_noise = torch.randn(25, nz, 1, 1, device=device)
 
 
 try:
-    netG.load_state_dict(torch.load('./generator/Weights/generator_clutch_6_4.h5'))
-    netD.load_state_dict(torch.load('./generator/Weights/discriminator_clutch_6_4.h5'))
+    netG.load_state_dict(torch.load('./generator/Weights/generator_clutch_6_4.h5', map_location=torch.device('cpu')))
+    netD.load_state_dict(torch.load('./generator/Weights/discriminator_clutch_6_4.h5', map_location=torch.device('cpu')))
 except RuntimeError as e:
     print('Ignoring "' + str(e) + '"')
 
 
 
-im_batch_size = 10
+im_batch_size = 100
 n_images=10
 for i_batch in range(0, n_images, im_batch_size):
     gen_z = torch.randn(im_batch_size, nz, 1, 1, device=device)
