@@ -16,7 +16,6 @@ conda env update --file handbag_gan.yml
 ```
 * When you done, run bellow to start app.
 ```
-python manage.py migrate
 python manage.py runserver
 ```
 <p align="center">
