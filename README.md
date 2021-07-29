@@ -1,5 +1,9 @@
 # A SYSTEM FOR DESIGN OF HANDBAG USING GENERATIVE ADVERSARIAL NETWORKS
 
+## Dataset
+My dataset contains four classes (i.e. Balo, Clutch, Satchel, Tote).
+>If you want to EDA or reuse, please **[click me](https://www.kaggle.com/nguynxuntnh/handbag-gan)**.
+
 ## How to use
 
 * Setup Environment (Using conda)
