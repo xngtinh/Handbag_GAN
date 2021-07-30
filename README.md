@@ -2,7 +2,7 @@
 
 ## Dataset
 My dataset contains four classes (i.e. Balo, Clutch, Satchel, Tote).
->If you want to EDA or reuse, please **[click me](https://www.kaggle.com/nguynxuntnh/handbag-gan)**.
+>If you want to EDA or reuse it, please **[click me](https://www.kaggle.com/nguynxuntnh/handbag-gan)**.
 
 ## How to use
 
@@ -32,6 +32,6 @@ python manage.py runserver
 
 ## Team members
 
-* **[Tran Thanh Nha]()**: Instructor.
+* **[Tran Thanh Nha]()**: Supervisor.
 * **[Lam Phat Tai](https://github.com/lamphattai2105)**
 * **[Nguyen Xuan Tinh](https://github.com/xngtinh)**
