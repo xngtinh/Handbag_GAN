@@ -1,5 +1,8 @@
 # A SYSTEM FOR DESIGN OF HANDBAG USING GENERATIVE ADVERSARIAL NETWORKS
 
+## International Journal of Advanced Engineering (IJAE)
+**[Paper](https://ictaes.org/wp-content/uploads/2021/09/IJAE-Vol.04-No.02/IJAE-V4No2-10.pdf)**
+
 ## Dataset
 My dataset contains four classes (i.e. Balo, Clutch, Satchel, Tote).
 >If you want to EDA or reuse it, please **[click me](https://www.kaggle.com/nguynxuntnh/handbag-gan)**.
