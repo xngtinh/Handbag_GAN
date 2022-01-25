@@ -1,7 +1,7 @@
 # A SYSTEM FOR DESIGN OF HANDBAG USING GENERATIVE ADVERSARIAL NETWORKS
 
 ## International Journal of Advanced Engineering (IJAE)
-**[Journal](https://ictaes.org/wp-content/uploads/2021/09/IJAE-Vol.04-No.02/IJAE-V4No2-10.pdf)**
+**[Journal link](https://ictaes.org/wp-content/uploads/2021/09/IJAE-Vol.04-No.02/IJAE-V4No2-10.pdf)**
 
 ## Dataset
 My dataset contains four classes (i.e. Balo, Clutch, Satchel, Tote).
@@ -35,6 +35,6 @@ python manage.py runserver
 
 ## Team members
 
-* **[Tran Thanh Nha]()**: Instructer
+* **[Tran Thanh Nha]()**: Instructor
 * **[Lam Phat Tai](https://github.com/lamphattai2105)**
 * **[Nguyen Xuan Tinh](https://github.com/xngtinh)**
