@@ -5,7 +5,7 @@
 
 ## Dataset
 My dataset contains four classes (i.e. Balo, Clutch, Satchel, Tote).
->If you want to EDA or reuse it, please **[click me](https://www.kaggle.com/nguynxuntnh/handbag-gan)**.
+
 
 ## How to use
 
